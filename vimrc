@@ -9,3 +9,11 @@ nmap <leader>qw :w<cr>:q<cr>
 if has("autocmd")
   au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
 endif
+
+"Expand tabs ans soft tabs
+set tabstop=4
+set shiftwidth=4
+set softtabstop=0
+set expandtab
+set smarttab
+
