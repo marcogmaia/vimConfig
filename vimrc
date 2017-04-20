@@ -1,5 +1,6 @@
 let mapleader=','
 
+nmap <leader>w :w<cr>
 nmap <leader>qq :quitall!<cr>
 nmap <leader>qw :w<cr>:q<cr>
 
